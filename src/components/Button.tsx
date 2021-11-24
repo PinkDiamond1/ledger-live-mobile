@@ -9,7 +9,7 @@ const inferType = (type: string) => {
     case "primary":
     case "lightPrimary":
       return "shade";
-    case "alert": 
+    case "alert":
       return "error";
     case "negativePrimary":
     case "secondary":
@@ -37,7 +37,7 @@ export type BaseButtonProps = {
   event?: string;
   eventProperties?: Object;
   testID?: string;
-  type?: string
+  type?: string;
 };
 
 type Props = BaseButtonProps & {
